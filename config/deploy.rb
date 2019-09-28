@@ -2,7 +2,7 @@
 lock "~> 3.11.1"
 
 set :application, "fstapi"
-set :repo_url, "https://github.com/erod17/fstapi.git"
+set :repo_url, "git://github.com/erod17/fstapi.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp

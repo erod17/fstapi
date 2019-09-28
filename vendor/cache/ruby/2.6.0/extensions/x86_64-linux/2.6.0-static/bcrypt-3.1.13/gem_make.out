@@ -1,0 +1,19 @@
+current directory: /home/erod17/www/ruby-on-rails/fstapi/vendor/cache/ruby/2.6.0/gems/bcrypt-3.1.13/ext/mri
+/home/erod17/.rbenv/versions/2.6.3/bin/ruby -I /home/erod17/.rbenv/versions/2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20190928-18972-1kzdi9.rb extconf.rb
+creating Makefile
+
+current directory: /home/erod17/www/ruby-on-rails/fstapi/vendor/cache/ruby/2.6.0/gems/bcrypt-3.1.13/ext/mri
+make "DESTDIR=" clean
+
+current directory: /home/erod17/www/ruby-on-rails/fstapi/vendor/cache/ruby/2.6.0/gems/bcrypt-3.1.13/ext/mri
+make "DESTDIR="
+compiling bcrypt_ext.c
+compiling crypt_blowfish.c
+gcc  -D__SKIP_GNU -I/home/erod17/.rbenv/versions/2.6.3/include     -c -o x86.o x86.S
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.so
+
+current directory: /home/erod17/www/ruby-on-rails/fstapi/vendor/cache/ruby/2.6.0/gems/bcrypt-3.1.13/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20190928-18972-1u0lz9r

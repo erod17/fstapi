@@ -186,6 +186,7 @@ DEPENDENCIES
   faker
   jwt
   listen (>= 3.0.5, < 3.2)
+  net-ssh (~> 5.2)
   pg
   puma (~> 3.11)
   rails (~> 6.0.0)
